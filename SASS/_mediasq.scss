@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px) {
+    
+    main 
+    {
+        .btn { font-size: medium; }
+        
+        h4 { font-size:medium; }
+
+        h5 { font-size:medium; }
+
+        .contenedorCarousel
+        {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .kzo , .conductorNoticiero { font-size: 0.9rem;}
+            
+        
+    }
+
+    
+
+    
+
+
+    
+}
+
+@media screen and (min-width: 600px) {
+    
+    .videos
+    {
+        width: 48%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+
+}

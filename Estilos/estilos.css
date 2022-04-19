@@ -1,0 +1,103 @@
+@media screen and (max-width: 600px) {
+  main .btn {
+    font-size: medium;
+  }
+  main h4 {
+    font-size: medium;
+  }
+  main h5 {
+    font-size: medium;
+  }
+  main .contenedorCarousel {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .kzo, main .conductorNoticiero {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .videos {
+    width: 48%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+* {
+  font-family: poppins;
+}
+
+header nav img {
+  -webkit-animation-name: LogoNavAnim;
+          animation-name: LogoNavAnim;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+header nav .navbar-brand img {
+  height: 3.8rem;
+}
+
+main .skills__mkt {
+  -webkit-animation-name: girarEjeX;
+          animation-name: girarEjeX;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes girarEjeX {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes girarEjeX {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+main .container .color-h4 h4 {
+  color: #534e4e;
+}
+
+main .contenedorCarousel {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .titulos_periodismo h4 {
+  background-color: lightcyan;
+}
+
+main .titulos_periodismo h5 {
+  background-color: lightgoldenrodyellow;
+}
+
+footer {
+  background-color: white;
+}
+
+footer a:hover {
+  background-color: black;
+}
+
+footer .bg-footer {
+  background-color: black;
+  font-size: small;
+}
+/*# sourceMappingURL=estilos.css.map */
